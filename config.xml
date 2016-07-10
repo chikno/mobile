@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.me" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>App Title</name>
+    <description>
+    </description>
+    <author></author>
+    <content src="index.html" />
+    <platform name="android">
+          <icon src="icons/android/res/drawable-ldpi/Icon.png" density="ldpi" />
+          <icon src="icons/android/res/drawable-mdpi/Icon.png" density="mdpi" />
+          <icon src="icons/android/res/drawable-hdpi/Icon.png" density="hdpi" />
+          <icon src="icons/android/res/drawable-xhdpi/Icon.png" density="xhdpi" />
+     </platform>
+     <platform name="ios">
+              <!-- iOS 7.0+ -->
+              <!-- iPhone / iPod Touch  -->
+              <icon src="icons/ios/icon/Icon.png" width="60" height="60" />
+              <icon src="icons/ios/icon/Icon@2x.png" width="120" height="120" />
+     </platform>
+
+    <access origin="*" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="19" />
+    
+</widget>

@@ -1,0 +1,48 @@
+template-footer{
+    position:absolute; bottom:0px; height:50px; left:0px; right:0px; 
+}
+template-header{
+    position:absolute; top:0px; left:0px; height:45px; right:0px;
+}
+#content{
+    position:absolute; top:44px; bottom:48px; left:0px; right:0px; overflow-y:auto; overflow-x:auto;
+}
+body{
+    height:100%; width:100%
+}
+.divider{
+    width:100%;
+    height:30px;
+    padding-left:10px;
+    padding-top:5px;
+    background-color:#efeff4;
+    color:#7f7f82;
+    border-bottom:1px solid #C7C7CC;
+}
+.subtext{
+    color:#898c90;
+    font-size:0.8em;
+    font-weight:100!important;
+}
+.tw-yellow{
+    color:#fec424!important;
+}
+#calendar{
+    background-color:white;
+    overflow:hidden;
+}
+.feed-image{
+    max-width:100%;
+}
+.pressed{
+    background-color:#F7F7F7!important;
+}
+.pressed-icon{
+    opacity:0.6!important;
+}
+.light-green{
+    background-color:#E0F8D8;
+}
+.light-red{
+    background-color:#FFD3E0;
+}

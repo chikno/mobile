@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- build:css  -->
+    <link rel="stylesheet" href="styles/ionic/css/ionic.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <script src="cordova.js"></script>
+  </head>
+  <body ng-app="app" ng-controller="AppCtrl">
+    <link rel="stylesheet" id="theme" href="styles/colors/blue.css">
+    <template-header></template-header>
+    <div id="content" class="main"> <div ui-view></div></div>
+    <template-footer></template-footer>
+
+    <!-- bower:js -->
+    <script src="scripts/bower_components/es5-shim/es5-shim.js"></script>
+    <script src="scripts/bower_components/angular/angular.js"></script>
+    <script src="scripts/bower_components/json3/lib/json3.js"></script>
+    <script src="scripts/bower_components/angular-touch/angular-touch.js"></script>
+    <script src="scripts/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/controllers.js"></script>
+    <script src="scripts/controllers/root.js"></script>
+   <!-- <script src="scripts/controllers/login.js"></script>-->
+    <script src="scripts/controllers/notes.js"></script>
+    <script src="scripts/services/services.js"></script>
+    <script src="scripts/services/notes.js"></script>
+    <!--<script src="scripts/services/authentication.js"></script>-->
+    <script src="scripts/constants/constants.js"></script>
+    <script src="scripts/directives/directives.js"></script>
+    <script src="scripts/directives/footer.js"></script>
+    <script src="scripts/directives/header.js"></script>
+  <!--  <script src="scripts/directives/touchable.js"></script>-->
+    <script src="scripts/directives/touchable-icon.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
